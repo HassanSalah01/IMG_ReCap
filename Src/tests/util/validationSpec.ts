@@ -9,7 +9,7 @@ describe("ValidateNumber Function ", () => {
         expect(validateNumber("100")).toBeTruthy;
     });
     it("Should Return Fasle Sending a Non String Number", () => {
-        expect(validateNumber("mark")).toBeTruthy;
+        expect(validateNumber("mark")).toBeFalsy;
     });
 });
 describe("ValidateString Function", () => {
